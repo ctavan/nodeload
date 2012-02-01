@@ -190,7 +190,7 @@ The following object defines the parameters and defaults for a test, which is us
                 'result-codes'],                // 'concurrency', 'http-errors'. These following statistics
                                                 // may also be specified with parameters:
                                                 //
-                                                //     { name: 'latency', percentiles: [0.9, 0.99] }
+                                                //     { name: 'latency', percentiles: [0.9, 0.99], percentileFormat: 'prefixed' }
                                                 //     { name: 'http-errors', successCodes: [200,404], log: 'http-errors.log' }
                                                 //
                                                 // Extend this list of statistics by adding to the
